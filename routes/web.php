@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::inertia('/', 'Index');
+Route::inertia('/link-test-1', 'LinkTest1');
+Route::inertia('/link-test-2', 'LinkTest2');
 
 // Route::get('/', function () {
 //     return view('welcome');
